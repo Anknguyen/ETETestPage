@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body>
     <!-- about us -->
-    <div class="container pb-3 mb-3">
+    <!-- <div class="container pb-3 mb-3">
       <div class="container border-bottom pb-3 mb-3 mt-4">
         <h1 id="About Us">About Us</h1>
       </div>
@@ -22,22 +22,84 @@
         <p>We’re family owned and operated, with decades of engineers in the family. Because we know the marketplace so well, we can work with you and consistently exceeds expectations – from the time it takes to receive your quote, the quality of delivery and simplicity of billing & shipping, Electronic Test Equipment has proven to be the peak of Test & Measurement providers.</p>
         </div>
         <div class="container pb-3 mb-3 mt-3"> 
-          <h2 class="mb-3" id="Contact Us">Contact Us!</h2>
+          <h2 class="mb-3" id="Contact Information">Contact Information</h2>
               <ul class="ml-0 list-unstyled">
-                <li>Electronic Test Equipment</li>
-                <li>1658 Old Apex Rd.</li>
-                <li>Cary, NC 27513</li>
-                <li>Phone: 919-809-5227</li>
-                <li>Email: <a href="sales@electronictestequipment.org">sales@electronictestequipment.org</a></li>
+                <li class="mb-1">Electronic Test Equipment</li>
+                <li class="mb-1">1624 Old Apex Rd.</li>
+                <li class="mb-1">Cary, NC 27513</li>
+                <li class="mb-1">Phone: 919-809-5227</li>
+                <li class="mb-1">Email: <a href="sales@electronictestequipment.org">sales@electronictestequipment.org</a></li>
               </ul>
         </div>
      </div> 
-     </div> 
+     </div> -->
     
+    <!-- Contact page -->
+    <div class="container pb-3 mb-3">
+      <div class="container pb-3 mb-3 mt-4 border-bottom">
+        <h3 id="About Us">Contact Us</h3>
+        <div class="container">
+          <p class="mb-0">Electronic Test Equipment</p>
+          <p class="mb-0">1624 Old Apex Rd</p>
+          <p>Cary, North Carolina 27513, USA</p>
+        </div>
+        <div class="container mt-3">
+          <p class="mb-0">1-919-809-5227</p>
+          <p><a href="#"> sales@electronictestequipment.org </a></p>
+        </div>
+        
+      </div>
+      <div class="container pb-3 mb-3 mt-3 border-bottom">
+        <h3>Have a question? We're here to help!</h3>
+        <div class="container mb-3 mt-4">
+          <form>
+            <div class="mt-3 form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="mt-3 form-group">
+              <label for="nameOrCompany">Name or Company</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter name or company">
+            </div>
+            <div class="mt-3 form-group">
+              <label for="inputMessage">Message</label>
+              <textarea class="form-control" id="inputMessage" rows="4"></textarea>
+            </div>
+            <div class="form-check mt-2">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">I am human</label>
+            </div>
+            
+            <button type="submit" class="mt-3 btn btn-dark">Send Message</button>
+          </form>
+        </div>
+      </div>
+      <div class="container pb-3 mb-3 mt-3">
+        <h3>
+          International Sales Representative
+        </h3>
+        <div class="container mt-3 mb-5">
+          <p class="mb-0">We have Spanish (Espanol) speaking sales representatives available for your convenience.</p>
+          <p>Please ask the sales representative to transfer you.</p>
+        </div>
+        <h3>
+          U.S. Government Sales & Procurement
+        </h3>
+        <div class="container">
+          <h5 class="mt-4 mb-3">
+            Electronic Test Equipment
+          </h5>
+          <p>*Contact us for DUNS Number & Cage Code</p>
+          <p>Main Telephone: 1-800-915-6216</p>
+          <p>International Telephone: 1-919-809-5227</p>
+        </div>
+      </div>
+    </div>
     
     
     <!-- footer -->
-    <footer class="bg-dark py-5 mt-5">
+    <footer class="bg-dark py-5 mt-5 footer-bs" style="position:relative; width: 100%; bottom:0px; left:0px;">
        <div class="container text-light text-center">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li class="nav-item"><a href="#About Us" class="nav-link px-2 text-white">About Us</a></li>
